@@ -1,0 +1,372 @@
+/* HEADER */
+#head{
+    background-color:#343434;
+
+    height: 120px;
+}
+#fbicon{  
+    color:#6CA6C1;
+
+    font-size: 50px;
+
+    padding-right: 10px;
+    
+}
+#title1{@import url('file:///C:\Users\Acer\Desktop\Website Justin\main.css');
+    color:#F7FFF7;
+
+    font-family: Arimo;
+    font-weight: bold;
+    font-size: 50px;
+
+    padding: 20px;
+    padding-left: 40px;
+}
+/* CONTAINER */
+#box{
+    height: 100%;
+}
+/* LOGIN */
+#login{
+    background-color:#6CA6C1;
+}
+#login p{
+    color:#F7FFF7;
+
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 50px;
+
+    text-transform: uppercase;
+    
+    margin-top: 70px;
+    margin-left: 240px;
+}
+#login input[type="text"]{
+    font-family: Arimo;
+    font-size: 30px;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-top: 40px;
+    margin-left: 120px;
+
+    padding: 5px;
+    padding-left: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+#login input[type="password"]{
+    font-family: Arimo;
+    font-size: 30px;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-top: 15px;
+    margin-left: 120px;
+
+    padding: 5px;
+    padding-left: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+#cb{
+    margin-top: 20px;
+    margin-left: 125px;
+}
+#login input[type="checkbox"]{
+    border: none;
+
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+
+    outline: none;
+}
+#login input[type="checkbox"]:checked ~ p{
+ color:#FFE66D;
+}
+#cb p{
+    font-family: Arimo;
+    font-weight: normal;
+    font-size: 23px;
+
+    display: inline;
+
+    margin-left: 0px;
+
+    padding: 10px;
+
+}
+#login input[type="button"]{
+    background-color:#2F3061;
+    color:#F7FFF7;
+
+    width: 220px;
+
+    font-family: Arimo;
+    font-size: 30px;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-top: 15px;
+    margin-left: 200px;
+
+    padding: 5px;
+    padding-left: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+#login input[type="button"]:hover{
+    background-color:#FFE66D;
+    color:#343434;
+}
+#forgot{
+    color:#2F3061;
+
+    font-family: Arimo;
+    font-weight: normal;
+    font-size: 23px;
+
+    text-transform: uppercase;
+
+    margin-top: 20px;
+    margin-left: 178px;
+
+    cursor: pointer;
+
+}
+#forgot:hover{
+    color:#FFE66D;
+}
+/* REGISTER */
+#register{
+    background-color:#F7FFF7;
+
+}
+#register p{
+    color:#2F3061;
+
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 50px;
+
+    text-transform: uppercase;
+    
+    margin-top: 70px;
+    margin-left: 30px;
+}
+p2{
+    color:#343434;
+
+    font-family: Arimo;
+    font-weight: bold;
+    font-size: 25px;
+
+    text-transform: uppercase;
+
+    margin-left: 30px;
+}
+#name input[type="text"]{
+    font-family: Arimo;
+    font-size: 30px;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-top: 15px;
+    margin-left: 10px;
+
+    padding: 5px;
+    padding-left: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+#name input[placeholder="First Name"] {
+
+    margin-left: 30px;
+
+}
+#email input[type="text"], #password input[type="password"]{
+    font-family: Arimo;
+    font-size: 30px;
+
+    width: 825px;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-top: 5px;
+    margin-left: 30px;
+
+    padding: 5px;
+    padding-left: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+td label{
+    font-family: Arimo;
+    font-weight: bold;
+    font-size: 23px;
+
+    text-transform: uppercase;
+
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+#day{
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 20px;
+
+    height: 50px;
+    width: 60px;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 30px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+#month{
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 20px;
+
+    height: 50px;
+    width: 165px;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 5px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+#year{
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 20px;
+
+    height: 50px;
+    width: 80px;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 5px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    outline: none;
+}
+#icon{
+    color:#2F3061;
+
+    font-size: 20px;
+
+    margin-left: 10px;
+}
+#icon:hover{
+    color:#6CA6C1;
+}
+input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    border: 2px solid #2F3061;
+    margin-right: 5px;
+
+    outline: none;
+}
+input[type="radio"]:checked{
+    border: 6px solid #6CA6C1;
+    outline: none;
+}
+#gender input[value="Male"], #gender input[value="Custom"]{
+    margin-left: 10px;
+}
+#gender input[value="Female"]{
+    margin-left: 30px;
+}
+#gender span{
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    color:#2F3061;
+}
+#cbtn{
+    height: 55px;
+    width: 285px;
+
+    background-color:#2F3061;
+    color: #F7FFF7;
+
+    font-family: Arimo;
+    font-weight: 550;
+    font-size: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    margin-top: 10px;
+    margin-left: 30px;
+
+    outline: none;
+}
+#cbtn:hover{
+    background-color:#FFE66D;
+    color: #F7FFF7;
+}
+#text p{
+    width: 609px;
+
+    font-family: Scada;
+    font-size: 23px;
+
+    text-align: justify;
+
+    color:#2F3061;
+
+    margin-top: 20px;
+} 
+#text1 p{
+    font-family: Scada;
+    font-size: 20px;
+
+    color:#FFE66D;
+
+    margin-top: 80px;
+    margin-left: 305px;
+}
